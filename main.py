@@ -252,11 +252,11 @@ count(value, /) method of builtins.list instance
 #list = ["apples","pears", "mangoes", "apples", "pineappples"]
 #list.count("apples")
 #print(list.count("apples"))  #outcome is 2
-result = {}
-for i in list:
-  #print (i) #gives all items 
-  result[i]= list.count(i)
-print(result)
+# result = {}
+# for i in list:
+#   #print (i) #gives all items 
+#   result[i]= list.count(i)
+# print(result)
 
 
 
@@ -267,3 +267,18 @@ counter -gives  output that will have the count of each element.
 # from collections import Counter
 # list = ["apples","pears", "mangoes", "apples", "pineappples"]
 # print(Counter(list))
+
+'''
+list membership Test
+
+'''
+
+fruits = ['orange', 'apple', 'pear']
+
+
+# check item is in list
+print('orange' in fruits )# output => True
+
+
+# check item, not in the list
+print('orange' not in fruits) # output => False
